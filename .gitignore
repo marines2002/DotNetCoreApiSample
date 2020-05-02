@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs
+/ClientApi/bin
+/ClientApi/obj
+/ClientApi/Properties
+/ClientApi.InMemoryTests/bin/Debug/netcoreapp2.1
+/ClientApi.InMemoryTests/obj
+/ClientApi.SmokeTests/bin/Debug/netcoreapp2.1
+/ClientApi.SmokeTests/obj
+/ApiTestingTemplate.sln.DotSettings.user
