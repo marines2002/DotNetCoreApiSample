@@ -3,7 +3,7 @@
 	As an Api Consumer
 	I want to successfully call Api endpoints 
 
-@Integration
+@Integration @Ignore
 Scenario: Call ECS Client Post Endpoint Should Return OK
 	Given I am using TestServer
 	And I call valid Client post endpoint with client with project id '12345678'

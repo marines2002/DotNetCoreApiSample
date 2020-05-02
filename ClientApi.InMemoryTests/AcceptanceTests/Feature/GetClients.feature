@@ -3,7 +3,7 @@
 	As an Api Consumer
 	I want to successfully call Api endpoints 
 
-@Integration
+@Integration @Ignore
 Scenario: Call ECS Get Client Endpoint Should Return OK
 	Given I am using TestServer
 	And Some Test Clients Exist

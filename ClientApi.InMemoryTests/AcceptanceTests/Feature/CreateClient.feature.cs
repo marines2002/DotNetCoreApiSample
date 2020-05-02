@@ -72,11 +72,13 @@ namespace ClientApi.InMemoryTests.AcceptanceTests.Feature
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Call ECS Client Post Endpoint Should Return OK")]
+        [NUnit.Framework.IgnoreAttribute("Ignored scenario")]
         [NUnit.Framework.CategoryAttribute("Integration")]
         public virtual void CallECSClientPostEndpointShouldReturnOK()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Call ECS Client Post Endpoint Should Return OK", null, new string[] {
-                        "Integration"});
+                        "Integration",
+                        "Ignore"});
 #line 7
 this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
