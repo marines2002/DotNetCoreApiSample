@@ -20,6 +20,7 @@ namespace ClientApi.InMemoryTests.AcceptanceTests.Facade
 
         public void BuildTestServer()
         {
+            //this needs to change
             var testServer = new TestServer(WebHost.CreateDefaultBuilder()
                 .UseStartup<Startup>());
 
