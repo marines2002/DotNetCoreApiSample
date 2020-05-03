@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using ClientApi.Model;
+using ClientApi3;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;

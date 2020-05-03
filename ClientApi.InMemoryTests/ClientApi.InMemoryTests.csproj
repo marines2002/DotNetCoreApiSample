@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="5.6.0" />
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.4" />
     <PackageReference Include="Microsoft.AspNetCore.TestHost" Version="2.1.1" />
     <PackageReference Include="Moq" Version="4.11.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
@@ -31,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClientApi\ClientApi.csproj" />
+    <ProjectReference Include="..\ClientApi3\ClientApi3.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,6 +1,6 @@
 ﻿using System.Net;
-using ClientApi.Builders;
 using ClientApi.InMemoryTests.AcceptanceTests.Facade;
+using ClientApi3.Builders;
 using FluentAssertions;
 using TechTalk.SpecFlow;
 
