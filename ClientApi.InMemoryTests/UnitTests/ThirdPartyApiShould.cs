@@ -13,7 +13,7 @@ namespace ClientApi.InMemoryTests.UnitTests
 {
     public class ThirdPartyApiShould
     {
-        private static FluentMockServer _mockServer;
+        private static WireMockServer _mockServer;
         private static WireMockCaller _simpleCaller;
         private static bool _isStarted;
 
@@ -22,7 +22,7 @@ namespace ClientApi.InMemoryTests.UnitTests
         {
             if (_isStarted) return;
 
-            _mockServer = FluentMockServer.Start();
+            _mockServer = WireMockServer.Start();
             _simpleCaller = new WireMockCaller(_mockServer.Urls.First());
             _isStarted = true;
         }
